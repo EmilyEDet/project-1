@@ -4,7 +4,7 @@ body {
   height: 100vh;
   background-color: rgb(143, 134, 138);
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-rows: 60px 1fr 30px;
 }
 
@@ -18,8 +18,8 @@ nav {
 }
 
 nav div {
-  font-size: 25px;
-  margin: 40px;
+  font-size: 20px;
+  margin: 60px;
   color: white;
 }
 
@@ -28,14 +28,13 @@ section {
 }
 
 aside {
-  background-color: blue;
+  background-color: white;
 }
 
 main {
   background-color: rgb(143, 134, 138);
   color: black;
   font-size: 18px;
-  border-left: 20px;
 }
 
 footer {
@@ -45,11 +44,24 @@ footer {
 
 .flex-ctr {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+}
+
+.main-text {
+  display: flex;
+}
+
+.main-text p {
+  margin: 15px;
 }
 
 nav,
 footer {
   grid-column: span 2;
+}
+
+#dog2 {
+  height: 250px;
 }
