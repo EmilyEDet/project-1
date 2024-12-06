@@ -49,12 +49,8 @@ footer {
   align-items: center;
 }
 
-.main-text {
-  display: flex;
-}
-
 .main-text p {
-  margin: 15px;
+  margin: 25px;
 }
 
 nav,
@@ -64,4 +60,8 @@ footer {
 
 #dog2 {
   height: 250px;
+}
+
+#dog1 {
+  width: 200px;
 }
