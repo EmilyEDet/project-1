@@ -49,8 +49,13 @@ footer {
   align-items: center;
 }
 
-.main-text p {
-  margin: 25px;
+.main-text {
+  display: flex;
+}
+
+.main-text p,
+h4 {
+  margin: 15px;
 }
 
 nav,
