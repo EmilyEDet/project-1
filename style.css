@@ -32,7 +32,10 @@ aside {
 }
 
 main {
-  background-color: beige;
+  background-color: rgb(143, 134, 138);
+  color: black;
+  font-size: 18px;
+  border-left: 20px;
 }
 
 footer {
