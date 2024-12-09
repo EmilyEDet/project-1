@@ -29,6 +29,7 @@ section {
 
 aside {
   background-color: white;
+  color: rgb(52, 66, 29);
 }
 
 main {
@@ -57,6 +58,21 @@ footer {
 h4 {
   margin: 15px;
   margin-top: 30px;
+}
+
+.rule-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.rule-text p {
+  margin: 20px;
+  margin-top: 5px;
+}
+
+.rule-text h4 {
+  text-align: center;
+  font-size: 22px;
 }
 
 nav,
