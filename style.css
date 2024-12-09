@@ -5,15 +5,15 @@ body {
   background-color: rgb(143, 134, 138);
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 60px 1fr 90px;
+  grid-template-rows: 70px 1fr 90px;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  height: 60px;
+  height: 70px;
   background-color: rgb(52, 66, 29);
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -73,6 +73,12 @@ h4 {
 .rule-text h4 {
   text-align: center;
   font-size: 22px;
+}
+
+.sidebar-text h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 nav,
